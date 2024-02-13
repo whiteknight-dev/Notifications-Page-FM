@@ -29,6 +29,7 @@ body {
 
 .container {
     width: 90%;
+    max-width: 696px;
     margin: 20px auto;
 }
 
@@ -64,6 +65,11 @@ body {
 
 .header p:last-child {
     color: var(--dark-grayish-blue);
+    cursor: pointer;
+}
+
+.header p:last-child:hover {
+    color: var(--blue);
 }
 
 .notification {
@@ -103,10 +109,19 @@ body {
     height: 3.4rem;
 }
 
+.notification .chess-girl {
+    justify-self: flex-end;
+}
+
 .notification .user {
     padding-right: 0.4rem;
     font-weight: 800;
     color: var(--very-dark-blue);
+    cursor: pointer;
+}
+
+.notification .user:hover {
+    color: var(--blue);
 }
 
 .notification .events {
@@ -130,4 +145,35 @@ body {
     padding: 1.4rem;
     border: 1px solid var(--light-grayish-blue-2);
     border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.notification .message:hover {
+    background-color: var(--light-grayish-blue-1);
+}
+
+.notification .chess-girl {
+    cursor: pointer;
+}
+
+@media (min-width: 630px) {
+    body {
+        font-size: 1.6rem;
+    }
+    .two-img {
+        display: grid;
+        grid-template-columns: auto auto 1fr;
+    }
+}
+
+@media (min-width: 980px) {
+    body {
+        background-color: var(--light-grayish-blue-1);
+    }
+    .container {
+        padding: 4rem 3rem;
+        padding-bottom: 0;
+        background-color: var(--white);
+        border-radius: 1rem;
+    }
 }
