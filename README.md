@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Here](https://github.com/whiteknight-dev/Notifications-Page-FM)
-- Live Site URL: [Here](https://your-live-site-url.com)
+- Live Site URL: [Here](https://whiteknight-dev.github.io/Notifications-Page-FM/)
 
 ## My process
 
